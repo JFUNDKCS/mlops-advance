@@ -54,7 +54,7 @@ jobs:
           echo scoring-endpoint: ${{ steps.aml_dev_deploy.outputs.service_scoring_uri}}
           echo swagger-uri: ${{ steps.aml_dev_deploy.outputs.service_swagger_uri}}
 
-       # Deploy your model to production comment out for now
+       # Deploy your model to production comment out for now and still now
        #- name: Prod Deploy
        # id: aml_prod_deploy
        # uses: Azure/aml-deploy@v1
