@@ -1,4 +1,4 @@
-name: Model Training
+name: Model Training WF
 
 on:
   push:
